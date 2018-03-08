@@ -26,6 +26,15 @@ public class EventController {
     @Autowired
     private EventService eventService;
     
+    @GetMapping("/exception")
+    public int divideByZero(){
+        int a = 1;
+        int b = 0; 
+       // this statement will cause ArithmeticException(/ by zero)
+       int i = a/b; 
+        
+       return i;
+   }
 
     @GetMapping("/get")
     public @ResponseBody ResponseEntity<List<Event>> all() {

@@ -2,7 +2,6 @@ package com.kgisl.Eventhandler.Eventhandler.model;
 
 import javax.persistence.*;
 
-
 @Entity
 public class Agenda {
 
@@ -22,9 +21,6 @@ public class Agenda {
 	@ManyToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "eventId", updatable = false, insertable = false)
 	private Event event;
-
-	
-	
 
 	public Long getaId() {
 		return agendaId;
@@ -55,9 +51,15 @@ public class Agenda {
 	}
 
 	public void setInstructor(String instructor) {
-		this.instructor =instructor;
+		this.instructor = instructor;
 	}
 
 	public void setEvent(Event event) {
-		this.event = event;}
+		this.event = event;
 	}
+
+	@Override
+	public String toString() {
+		return "agendaId:"+agendaId+", time:"+time+", description:"+description+", instructor:"+instructor;
+	}
+}

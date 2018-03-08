@@ -81,4 +81,9 @@ public class Event  {
 		this.agenda = agenda;
 	}
 
+	@Override
+	public String toString() {
+		return "eventId:"+eventId+", edition:"+edition+", date:"+date+", location:"+location+", isActive:"+isActive+", agenda:"+agenda;
+	}
+
 }
