@@ -1,0 +1,14 @@
+2018-03-08 11:01:03 [main] INFO  c.k.E.E.EventhandlerApplication - Starting EventhandlerApplication on 3FTRN4147 with PID 78220 (D:\rahul\eventhandler-master\target\classes started by Trainee in D:\rahul\eventhandler-master)
+2018-03-08 11:01:03 [main] INFO  c.k.E.E.EventhandlerApplication - No active profile set, falling back to default profiles: default
+2018-03-08 11:01:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-08 11:01:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-03-08 11:01:08 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-08 11:01:16 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2018-03-08 11:01:16 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-03-08 11:01:16 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2018-03-08 11:01:16 [main] INFO  c.k.E.E.EventhandlerApplication - Started EventhandlerApplication in 13.459 seconds (JVM running for 22.651)
+2018-03-08 11:01:41 [http-nio-9092-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-08 11:01:42 [http-nio-9092-exec-10] INFO  c.k.E.E.aop.EventHandlerAspect - Entering in Method :  getAll
+2018-03-08 11:01:42 [http-nio-9092-exec-10] WARN  c.k.E.E.aop.EventHandlerAspect - Argumentsttt :  []
+2018-03-08 11:01:42 [http-nio-9092-exec-10] INFO  c.k.E.E.aop.EventHandlerAspect -  ###### Returning for class : com.kgisl.Eventhandler.Eventhandler.service.EventServiceImp ; Method : getAll 
+2018-03-08 11:01:42 [http-nio-9092-exec-10] INFO  c.k.E.E.aop.EventHandlerAspect -  ###### with value : [com.kgisl.Eventhandler.Eventhandler.model.Event@539293cc, com.kgisl.Eventhandler.Eventhandler.model.Event@40ac8290, com.kgisl.Eventhandler.Eventhandler.model.Event@13257c8f, com.kgisl.Eventhandler.Eventhandler.model.Event@12c59e69]
